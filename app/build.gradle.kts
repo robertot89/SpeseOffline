@@ -21,6 +21,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+}
 
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2026.08.00"))

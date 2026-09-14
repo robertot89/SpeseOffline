@@ -1,5 +1,6 @@
 package com.rob.speseoffline
 
+import androidx.activity.compose.setContent
 import android.os.Bundle
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -117,6 +118,7 @@ class MainActivity : FragmentActivity() {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ExpenseApp(
     repository: ExpenseRepository,
